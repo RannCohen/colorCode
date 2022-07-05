@@ -112,5 +112,12 @@ int main(void)
 	printf("%sThis is GREEN text on CYAN background%s\n", GREEN_TXT_CYAN_BG, NORMAL);
 	printf("%sThis is GREEN text on WHITE background%s\n", GREEN_TXT_WHITE_BG, NORMAL);
 	printf("\n");
+	printf("%sThis is YELLOW text on RED background%s\n", YELLOW_TXT_RED_BG, NORMAL);
+	printf("%sThis is YELLOW text on GREEN background%s\n", YELLOW_TXT_GREEN_BG, NORMAL);
+	printf("%sThis is YELLOW text on BLUE background%s\n", YELLOW_TXT_BLUE_BG, NORMAL);
+	printf("%sThis is YELLOW text on MAGENTA background%s\n", YELLOW_TXT_MAGENTA_BG, NORMAL);
+	printf("%sThis is YELLOW text on CYAN background%s\n", YELLOW_TXT_CYAN_BG, NORMAL);
+	printf("%sThis is YELLOW text on WHITE background%s\n", YELLOW_TXT_WHITE_BG, NORMAL);
+	printf("\n");
 	return 0;
 }
